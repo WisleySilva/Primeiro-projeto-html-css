@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+.container{
+    background-color: aqua;
+}
+.container-menu{
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+}
