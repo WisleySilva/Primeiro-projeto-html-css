@@ -4,6 +4,7 @@
 *{
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 a{
     text-decoration: none;
@@ -17,21 +18,34 @@ header{
 header ul{
     float: right;
     margin-right: 4rem;
-    margin-top:2rem;
+    
+    text-decoration: none;
+}
+header a {
+    text-decoration: none;
+    display: inline-block;
+    width:100px;
+    height: 52px;
+    padding-top: 30px;
 }
 header li{
     color:#475677;
     position: relative;
     display: inline;
     font-size: 16px;
-    padding: 1.9rem;
-    text-decoration: none;
+    width:50px;
+    height: 30px;
+    margin-left:15px ;
+    text-align: center;
+    
     
 }
-header li:hover{
-    color:#fff;
+
+header li:hover, a:hover{
+    
     background-color: #001550;
     cursor: pointer;
+    color:#fff;
     text-decoration: none;
 }
 header img {
@@ -44,6 +58,7 @@ header img {
     text-align: left;
     background-image: linear-gradient(-120deg, #001550cc 25%, #001550e1 50%, #001550 100%);
     position: relative;
+    text-decoration: none;
 }
 .info-pagina {
     position: relative;
@@ -55,6 +70,7 @@ header img {
 }
 .info-pagina h1, h2, p, button, img {
     margin: 1rem;
+    text-decoration: none;
 }
 .info-pagina h2{
     color: #FFBE58;
@@ -92,4 +108,29 @@ header img {
     border:none;
     box-shadow: none;
 }
+.container{
+    position: relative;
+    padding: 5rem;
+    margin-top: 2rem;
+    height: 10rem;   
+}
+
+.itens-category li{
+    margin-left:5px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #001550;
+    font-size: 15px;
+    border: 2px solid rgb(117, 117, 117, 0.3);
+    border-radius: 10px;
+    height: 8rem;
+    width: 8rem;
+    left: 15%;
+}
+.itens-category img{
+    display: inline-block;
+}
+
 
